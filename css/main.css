@@ -70,3 +70,15 @@ img.filter:hover {
 .aboutus-text {
     padding: 2em 0;
 }
+
+.black_white {
+    background: url(http://forum.ultra-hdtv.net/index.php/Attachment/368-Schwarz-Weiss-SBS-2160p-jpg/) center;
+}
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
