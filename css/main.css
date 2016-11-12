@@ -72,7 +72,7 @@ img.filter:hover {
 }
 
 .black_white {
-    background: url(http://forum.ultra-hdtv.net/index.php/Attachment/368-Schwarz-Weiss-SBS-2160p-jpg/) center;
+    background: linear-gradient(to right, black 0%,black 50%,#000000 50%,white 50%,white 100%);
 }
 
 .white {
