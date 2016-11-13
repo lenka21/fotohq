@@ -16,6 +16,11 @@ footer {
     margin-top: 5em;
 }
 
+.content-long {
+    height: 1300px;
+    margin-top: 5em;
+}
+
 .ms-navbar {
     margin-top: 50px;
 }
@@ -81,4 +86,14 @@ img.filter:hover {
 
 .black {
     background-color: black;
+}
+
+.description {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 200px;
+}
+
+.description:hover {
+    height: auto;
 }
