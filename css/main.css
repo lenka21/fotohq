@@ -55,11 +55,14 @@ h3.title {
 img.filter {
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(100%);
 }
 
 img.filter:hover {
     filter: none; /* IE6-9 */
     -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(0%);
+
 }
 
 .carousel-inner > .item > img,
