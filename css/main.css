@@ -100,3 +100,18 @@ img.filter:hover {
 .description:hover {
     height: auto;
 }
+
+
+@media all and (max-width: 767px) {
+    .black_white {
+        background: linear-gradient(to bottom, black 0%, black 50%, #000000 50%, white 50%, white 100%);
+    }
+    .black_white .center {
+        padding: 12.5em 1em 1em 1em;
+    }
+
+    /*lub*/
+    /*.black_white footer {*/
+        /*display: none;*/
+    /*}*/
+}
