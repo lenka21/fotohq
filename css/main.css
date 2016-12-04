@@ -101,6 +101,10 @@ img.filter:hover {
     height: auto;
 }
 
+li.site {
+    float: right;
+    display: inline;
+}
 
 @media all and (max-width: 767px) {
     .black_white {
