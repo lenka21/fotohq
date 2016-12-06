@@ -104,6 +104,15 @@ img.filter:hover {
 li.site {
     float: right;
     display: inline;
+    margin: 6px;
+}
+
+li.jump-up {
+    margin-left: 8%;
+}
+
+li.jump-up.wed4 {
+    margin-left: -4%;
 }
 
 @media all and (max-width: 767px) {
