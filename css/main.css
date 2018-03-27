@@ -115,6 +115,10 @@ li.jump-up.wed4 {
     margin-left: -4%;
 }
 
+.address-box {
+    margin-bottom: 40px;
+}
+
 @media all and (max-width: 767px) {
     .black_white {
         background: linear-gradient(to bottom, black 0%, black 50%, #000000 50%, white 50%, white 100%);
