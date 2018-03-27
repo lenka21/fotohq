@@ -12,15 +12,18 @@ footer {
 }
 
 .content {
-    height: 800px;
-    margin-top: 5em;
+    height: 700px;
+    margin-top: 3em;
 }
 
 .content-long {
-    height: 1300px;
-    margin-top: 5em;
+    margin-top: 3em;
+    margin-bottom: 3em;
 }
 
+iframe {
+    margin-bottom: 10px;
+}
 .ms-navbar {
     margin-top: 50px;
 }
@@ -117,6 +120,7 @@ li.jump-up.wed4 {
 
 .address-box {
     margin-bottom: 40px;
+
 }
 
 @media all and (max-width: 767px) {
