@@ -132,15 +132,23 @@ li.jump-up.wed4 {
         padding: 12.5em 1em 1em 1em;
     }
 
-    a.tm-logo.uk-visible-large {
-        margin-left: 33%;
+    .logo-box {
+        width: 170px;
+        margin: 0 auto;
+
     }
 
+    .navbar {
+        margin: 20px 0;
+    }
+
+    .content-long {
+        margin-top: 10px;
+    }
 }
 
 @media (min-width: 768px) {
     .navbar {
-        border-radius: 4px;
         width: fit-content;
         float: right;
     }
@@ -148,4 +156,23 @@ li.jump-up.wed4 {
 
 .logo {
     margin-top: 1em;
+}
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+.navbar {
+    border-radius: 4px;
 }
