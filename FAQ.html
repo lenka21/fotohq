@@ -19,7 +19,24 @@
     <![endif]-->
     </head>
     <body>
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("ms-top").style.display = "block";
+            } else {
+                document.getElementById("ms-top").style.display = "none";
+            }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
     <div class="container">
+        <button onclick="topFunction()" id="ms-top" class="glyphicon glyphicon-arrow-up" title="Go to top"></button>
         <div class="row">
             <div class="col-sm-3 col-md-3">
                 <a class="tm-logo uk-visible-large" href="index.html">
