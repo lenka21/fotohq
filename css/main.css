@@ -1,3 +1,8 @@
+body.hq-pages {
+    background-color: #000;
+    color: #fff;
+}
+
 footer {
     padding: 30px 15px;
     margin-bottom: 0;
@@ -59,12 +64,18 @@ img.filter {
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
     filter: grayscale(100%);
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
 }
 
 img.filter:hover {
     filter: none; /* IE6-9 */
     -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
     filter: grayscale(0%);
+    -o-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -webkit-transition: all 0.6s;
 
 }
 
@@ -222,7 +233,7 @@ li.jump-up.wed4 {
 img.menu-photo {
     object-fit: cover;
     height: 360px;
-    max-width: 240px;
+    width: 240px;
 }
 
 .photo-gallery > ul > li > a > img.img-responsive {
